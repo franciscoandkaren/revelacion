@@ -21,7 +21,7 @@ window.INVITACION = {
   mostrarRegalos: true,
   // Fotografías: copia los archivos a la carpeta assets y escribe aquí su ruta.
   // Por ejemplo: "assets/nuestra-foto.jpg" y "assets/ecografia.jpg".
-  fotoPareja: "assets/ilustracion-bebe.webp", // Ilustración del bebé como portada; reemplaza por foto de ambos cuando quieras.
+  fotoPareja: "assets/ilustracion-pareja.png", // Ilustración del bebé como portada; reemplaza por foto de ambos cuando quieras.
   fotoEcografia: "assets/ilustracion-bebe.webp", // Ilustración favorita del bebé, sin aspecto médico.
   // Música instrumental original incluida; se inicia al abrir la invitación.
   musicaArchivo: "assets/melodia-original.mp3",
