@@ -1,0 +1,12 @@
+const fs = require('fs');
+const assert = require('node:assert/strict');
+const cfg = fs.readFileSync(__dirname + '/config.js', 'utf8');
+const gs = fs.readFileSync(__dirname + '/google-apps-script/Code.gs', 'utf8');
+const js = fs.readFileSync(__dirname + '/script.js', 'utf8');
+assert(cfg.includes('googleSheetsWebAppUrl: "https://script.google.com/macros/s/AKfycbypLYUMfVmhAPf0-T0-UUeAYck72-CfTa0O9oAksT6eZ7HInwNXTxJsp86X33kp95iSpw/exec"'));
+assert(gs.includes("const SPREADSHEET_ID = '1z5aRWKcbPhElHbH5veRp9y9qfASS-pMsEekhc0mzHok'"));
+assert(js.includes('const saved = await verifyWithRetries(submissionId)'));
+assert(js.includes('registered = true;'));
+assert(js.includes('rainConfetti(48);'));
+assert(js.includes('saveButton.disabled = !configured || !currentVote || nameInput.value.trim().length < 2;'));
+console.log('OK: conexión /exec configurada, ID de hoja, validación y verificación remota.');

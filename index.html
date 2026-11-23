@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f7f3ec" />
+    <meta
+      property="og:title"
+      content="Una dulce sorpresa · Karen & Francisco"
+    />
+    <meta
+      property="og:description"
+      content="¡Acompáñanos a celebrar la llegada de nuestro bebé!"
+    />
+    <meta
+      name="description"
+      content="Una dulce sorpresa está en camino: acompáñanos a nuestra revelación de género y baby shower."
+    />
+    <title>Una dulce sorpresa | Baby Shower & Revelación</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="config.js" defer></script>
+    <script src="script.js" defer></script>
+  </head>
+  <body class="intro-open">
+    <div
+      class="intro"
+      id="intro"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="introTitle"
+    >
+      <div class="intro-content">
+        <div class="small-stars" aria-hidden="true">✳︎ &nbsp; ✦ &nbsp; ✳︎</div>
+        <p class="eyebrow">T E N E M O S &nbsp; U N A &nbsp; N O T I C I A</p>
+        <div class="intro-illustration" aria-hidden="true">
+          <span class="balloon bal-one"></span
+          ><span class="balloon bal-two"></span
+          ><span class="balloon bal-three"></span>
+          <span class="twinkle t1">✧</span><span class="twinkle t2">✦</span>
+        </div>
+        <h1 id="introTitle">Una dulce <em>sorpresa</em></h1>
+        <p class="intro-desc">
+          Hay momentos que se vuelven más especiales cuando los compartimos.
+        </p>
+        <button id="openInvite" class="btn btn-dark" type="button">
+          Abrir invitación <span aria-hidden="true">↗</span>
+        </button>
+        <p class="intro-sign" id="introParents">
+          Con cariño, Karen & Francisco
+        </p>
+      </div>
+    </div>
+
+    <main id="mainContent" aria-label="Invitación">
+      <section class="hero section-pad" aria-labelledby="heroHeading">
+        <div class="hero-top">
+          <span>UNA CELEBRACIÓN MUY ESPECIAL</span
+          ><span class="hero-asterisk">✳</span>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-orbit orbit-a"></div>
+          <div class="art-orbit orbit-b"></div>
+          <div class="art-sun"></div>
+          <div class="hero-portrait illustration-portrait" id="coupleFrame">
+            <img
+              id="couplePhoto"
+              alt="Ilustración artística de nuestro bebé"
+              loading="eager"
+              hidden
+            />
+            <div
+              class="photo-placeholder"
+              id="couplePlaceholder"
+              aria-hidden="true"
+            >
+              <span>♡</span><small>Un amor que crece</small>
+            </div>
+          </div>
+          <span class="floating-star star-a">✦</span
+          ><span class="floating-star star-b">✧</span
+          ><span class="floating-star star-c">✳</span>
+          <div class="art-ribbon">OH, BABY!</div>
+        </div>
+        <div class="hero-body">
+          <p class="eyebrow dark">DOS MOTIVOS PARA CELEBRAR</p>
+          <h2 id="heroHeading">Un bebé, <span>dos grandes</span> alegrías.</h2>
+          <p id="introMessage" class="lead">
+            Una dulce sorpresa está en camino y queremos compartirla contigo.
+          </p>
+          <div class="pair-label">
+            <span class="tiny-line"></span
+            ><span id="parentsHero">Karen & Francisco</span
+            ><span class="tiny-line"></span>
+          </div>
+          <a href="#detalles" class="text-link"
+            >Descubre los detalles <span aria-hidden="true">↓</span></a
+          >
+        </div>
+        <div class="hero-footer">
+          <span>REVELACIÓN DE GÉNERO</span><span class="footer-dot">✦</span
+          ><span>BABY SHOWER</span>
+        </div>
+      </section>
+
+      <section class="occasion-section section-pad" id="detalles">
+        <div class="section-label">EL GRAN DÍA <span>01 / 06</span></div>
+        <p class="eyebrow muted">LA ESPERA MÁS BONITA</p>
+        <h2 class="section-heading">
+          El doble de amor,<br /><em>el doble de emoción.</em>
+        </h2>
+        <p class="section-sub">
+          Queremos celebrar la llegada de nuestro bebé y descubrir juntos una
+          maravillosa sorpresa.
+        </p>
+        <div class="occasion-grid">
+          <article class="occasion-card baby-card">
+            <div class="occasion-icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 72 72"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+              >
+                <path
+                  d="M20 35c-6-8-5-18 2-23 5-3 10-1 14 4 4-5 9-7 14-4 7 5 8 15 2 23L36 54 20 35Z"
+                />
+                <path d="M28 28c2 5 4 7 8 8 4-1 6-3 8-8M32 56l4 7 4-7" />
+                <path d="M18 54h8M46 54h8" />
+              </svg>
+            </div>
+            <span class="card-kicker">UN MOMENTO PARA CONSENTIR</span>
+            <h3>Baby<br />Shower</h3>
+            <p>Regalos, abrazos y buenos deseos para quien viene en camino.</p>
+            <span id="babyTime" class="occasion-time"
+              >Horario por confirmar</span
+            >
+          </article>
+          <article class="occasion-card reveal-card">
+            <div class="occasion-icon" aria-hidden="true">
+              <svg
+                viewBox="0 0 72 72"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.7"
+              >
+                <path
+                  d="M36 13c-12 0-21 10-21 23 0 12 9 22 21 22s21-10 21-22c0-13-9-23-21-23Z"
+                />
+                <path
+                  d="M29 58l7 9 7-9M24 31l4 3 5-7 6 10 9-7M20 19l-4-5m36 5 4-5M36 8V3"
+                />
+              </svg>
+            </div>
+            <span class="card-kicker">EL SECRETO MÁS ESPERADO</span>
+            <h3>¿Niño<br />o niña?</h3>
+            <p>La gran revelación será una sorpresa que viviremos contigo.</p>
+            <span id="revealTime" class="occasion-time"
+              >Horario por confirmar</span
+            >
+          </article>
+        </div>
+      </section>
+
+      <section class="sonogram-section section-pad" id="nuestro-bebe">
+        <div class="section-label">UN DULCE RETRATO <span>02 / 06</span></div>
+        <div class="sonogram-layout">
+          <div class="sonogram-photo-wrap">
+            <div class="sonogram-photo-frame">
+              <img
+                id="babyUltrasound"
+                alt="Ilustración cálida de nuestro bebé inspirada en su ecografía"
+                loading="lazy"
+                hidden
+              />
+              <div
+                class="sonogram-placeholder"
+                id="ultrasoundPlaceholder"
+                aria-hidden="true"
+              >
+                <span>♡</span>
+                <p>Nuestro primer retrato</p>
+              </div>
+            </div>
+            <div class="sonogram-sticker">CON TODO NUESTRO AMOR ♡</div>
+          </div>
+          <div class="sonogram-copy">
+            <p class="eyebrow dark">UN PEDACITO DE NUESTRO CORAZÓN</p>
+            <h2 class="section-heading">Nuestro <em>pequeño milagro.</em></h2>
+            <p class="section-sub">
+              Todavía no te tenemos en nuestros brazos, pero ya llenas nuestros
+              días de amor.
+            </p>
+            <div class="sonogram-sign">
+              Nuestro amor más grande está en camino. ♡
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        class="vote-section section-pad"
+        id="votacion"
+        aria-labelledby="voteHeading"
+      >
+        <div class="section-label">
+          UNA PREDICCIÓN MUY ESPECIAL <span>03 / 06</span>
+        </div>
+        <p class="eyebrow dark">ANTES DE DESCUBRIR LA SORPRESA</p>
+        <h2 class="section-heading" id="voteHeading">
+          ¿Qué dice <em>tu corazón?</em>
+        </h2>
+        <p class="section-sub vote-intro">
+          ¿Crees que será niño o niña? ¡Elige tu predicción! La respuesta será
+          una sorpresa hasta el gran día.
+        </p>
+        <div class="voting-form" id="votingForm">
+          <label class="vote-name-label" for="voterName">TU NOMBRE</label>
+          <input
+            id="voterName"
+            class="vote-name"
+            type="text"
+            autocomplete="given-name"
+            maxlength="60"
+            placeholder="¿Cómo te llamas?"
+            aria-describedby="votePrivacy"
+          />
+          <p class="vote-prompt">Ahora elige tu predicción:</p>
+          <div class="vote-grid" role="group" aria-label="Vota por niño o niña">
+            <button
+              type="button"
+              class="vote-option vote-boy"
+              data-vote="Niño"
+              aria-pressed="false"
+            >
+              <span class="vote-symbol">✦</span
+              ><span class="vote-title">¡Niño!</span
+              ><small>Mi corazoncito dice niño</small>
+            </button>
+            <button
+              type="button"
+              class="vote-option vote-girl"
+              data-vote="Niña"
+              aria-pressed="false"
+            >
+              <span class="vote-symbol">✿</span
+              ><span class="vote-title">¡Niña!</span
+              ><small>Mi corazoncito dice niña</small>
+            </button>
+          </div>
+          <button
+            type="button"
+            id="saveVote"
+            class="btn btn-dark save-vote"
+            disabled
+          >
+            Guardar mi predicción <span aria-hidden="true">♡</span>
+          </button>
+        </div>
+        <div id="voteSuccess" class="vote-success" hidden>
+          <div class="success-illustration" aria-hidden="true">♡</div>
+          <h3>¡Gracias por participar!</h3>
+          <p id="successMessage">
+            Tu predicción ya forma parte de esta historia.
+          </p>
+          <button type="button" id="editVote" class="edit-vote">
+            ¿Cambiaste de opinión? Modificar predicción
+          </button>
+        </div>
+        <p
+          class="vote-feedback"
+          id="voteFeedback"
+          role="status"
+          aria-live="polite"
+        >
+          Escribe tu nombre y elige niño o niña.
+        </p>
+        <!-- <p class="vote-privacy" id="votePrivacy">
+          Tu voto se guardará en una hoja privada de Google Sheets; los
+          resultados no se muestran aquí.
+        </p> -->
+        <div id="confettiLayer" class="confetti-layer" aria-hidden="true"></div>
+      </section>
+
+      <section class="date-section section-pad">
+        <div class="section-label">
+          MARCA TU CALENDARIO <span>04 / 06</span>
+        </div>
+        <p class="eyebrow">RESERVA ESTE MOMENTO</p>
+        <h2 class="section-heading">Nuestra fecha <em>especial.</em></h2>
+        <div class="date-tile">
+          <span id="dateWeekday" class="date-weekday">PRÓXIMAMENTE</span>
+          <div class="big-date" id="dateNumber">✦</div>
+          <span class="date-month" id="dateMonth">FECHA POR CONFIRMAR</span>
+          <div class="date-separator"></div>
+          <span class="date-time" id="mainTime"
+            >Te compartiremos la hora muy pronto</span
+          >
+        </div>
+        <div id="countdownWrap" class="countdown-wrap" hidden>
+          <p class="countdown-caption">FALTAN SOLO</p>
+          <div class="countdown" role="timer" aria-label="Cuenta regresiva">
+            <div><strong id="days">00</strong><span>DÍAS</span></div>
+            <div><strong id="hours">00</strong><span>HORAS</span></div>
+            <div><strong id="minutes">00</strong><span>MIN</span></div>
+            <div><strong id="seconds">00</strong><span>SEG</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="location-section section-pad" id="ubicacion">
+        <div class="section-label">NOS VEMOS AQUÍ <span>05 / 06</span></div>
+        <div class="location-layout">
+          <div class="location-copy">
+            <p class="eyebrow dark">UN LUGAR PARA REUNIRNOS</p>
+            <h2 class="section-heading">
+              El mejor lugar es<br /><em>junto a ti.</em>
+            </h2>
+            <div class="loc-detail">
+              <span class="loc-symbol" aria-hidden="true">⌁</span>
+              <div>
+                <strong id="venueName">Lugar por confirmar</strong>
+                <p id="venueAddress">Pronto compartiremos la ubicación.</p>
+              </div>
+            </div>
+          </div>
+          <div class="location-map-panel" id="locationMapPanel" hidden>
+            <div class="map-frame-wrap">
+              <iframe
+                id="locationMap"
+                class="location-map"
+                title="Vista previa del mapa de Comarca JC en Montero"
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="map-caption">
+              <span aria-hidden="true">✦</span>
+              <span>Comarca JC · Montero, Santa Cruz</span>
+            </div>
+            <div class="map-nav">
+              <a
+                id="mapsButton"
+                class="btn btn-outline"
+                hidden
+                target="_blank"
+                rel="noopener noreferrer"
+                >Cómo llegar <span aria-hidden="true">↗</span></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="giftSection" class="gift-section section-pad">
+        <div class="gift-flower" aria-hidden="true">✳</div>
+        <p class="eyebrow">CON MUCHO CARIÑO</p>
+        <h2 class="section-heading">
+          Pequeños detalles,<br /><em>grandes recuerdos.</em>
+        </h2>
+        <p id="giftMessage" class="section-sub gift-message">
+          Tu presencia es nuestro mejor regalo.
+        </p>
+        <div id="dressCodeWrap" class="dresscode" hidden>
+          <span>VESTIMENTA</span><strong id="dressCode"></strong>
+        </div>
+      </section>
+
+      <section class="rsvp-section section-pad" id="confirmar">
+        <div class="section-label">
+          NOS HARÁ FELICES VERTE <span>06 / 06</span>
+        </div>
+        <div class="sparkle-large" aria-hidden="true">✧</div>
+        <p class="eyebrow">¿NOS ACOMPAÑAS?</p>
+        <h2 class="section-heading">
+          Tu presencia hará<br /><em>más bonito este día.</em>
+        </h2>
+        <p id="rsvpHint" class="section-sub">
+          Pronto compartiremos cómo confirmar tu asistencia.
+        </p>
+        <form id="rsvpForm" class="rsvp-form" hidden>
+          <label for="guestName">TU NOMBRE</label>
+          <input
+            id="guestName"
+            name="guestName"
+            type="text"
+            autocomplete="name"
+            placeholder="Escribe tu nombre"
+            maxlength="100"
+            required
+          />
+          <button class="btn btn-dark" type="submit">
+            Confirmar por WhatsApp <span aria-hidden="true">↗</span>
+          </button>
+        </form>
+        <div class="signoff">
+          Con todo nuestro amor,<br /><span id="parentsFooter"
+            >Karen & Francisco</span
+          >
+        </div>
+      </section>
+      <footer class="site-footer">
+        <span>UN DÍA, DOS RAZONES PARA SONREÍR</span><span>♥</span
+        ><span>HECHO CON AMOR</span>
+      </footer>
+    </main>
+    <div id="musicWidget" class="music-widget" hidden>
+      <button
+        type="button"
+        id="musicToggle"
+        class="music-toggle"
+        aria-label="Activar música de fondo"
+        aria-pressed="false"
+      >
+        <span class="music-icon" aria-hidden="true">♫</span
+        ><span id="musicLabel">Activar música</span>
+      </button>
+      <audio id="backgroundAudio" loop preload="none"></audio>
+    </div>
+  </body>
+</html>
